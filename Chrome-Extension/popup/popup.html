@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share YouTube Status To Discord</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script type="text/javascript" src="../src/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Share YouTube Status To Discord</h2>
+
+    <div class="option">
+        <p>有効<input type="checkbox" id="status"></p>
+        <p>すべてのタブ<input type="checkbox" id="all_tabs"></p>
+        <button type="button" id="reset">ステータスをリセットする</button>
+    </div>
+
+    <p id="os_error">この拡張機能はWindows専用です</p>
+
+    <p id="directory_error">ソフトウェアがインストールされていません<br>
+    <a href="https://github.com/YouTube-Status">こちら</a>よりソフトウェアをダウンロードしてください</p>
+
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

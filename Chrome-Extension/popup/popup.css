@@ -1,0 +1,16 @@
+body {
+    max-width: 300px;
+    min-width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#os_error {
+    display: none;
+}
+
+#directory_error {
+    display: none;
+}
